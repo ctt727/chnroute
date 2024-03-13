@@ -6,14 +6,14 @@ ip段信息取自 [mayaxcn](https://github.com/mayaxcn/china-ip-list)
 策略路由分流的实现方法：
 
 **CN.rsc** 是往Firewall - address lists 里生成ip段列表。以下是ROS自动更新脚本
-
+```
 /file remove [find name="CN.rsc"]
 /tool fetch url="https://cdn.jsdelivr.net/gh/ctt727/chnroute@master/CN.rsc"
 :if ([:len [/file find name=CN.rsc]] > 0) do={
 /ip firewall address-list remove [find comment="AS4809"]
 /import CN.rsc
 }
-
+```
 
 用于Firewall - mangle页，通过dst-addrss= 引用
 
