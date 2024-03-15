@@ -10,23 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
 
     - name: download cidr
       run: |
         chmod +x ros-dpbr.sh
         ./ros-dpbr.sh
-
-     # 本地提交
-    - name: Commit files
-      run: |
-         git rm CN.rsc
-         git commit -m "删除旧有IP文件!"
-         git add CN.rsc
-         git commit -m "提交新的chn_ip.txt和chnroute.txt文件，更新于$(date "+%Y-%m-%d %H:%M:%S")"
-         
-    # 更新至远程github代码仓库中
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+        
+    - name: Commit & Push changes
+      uses: actions-js/push@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
