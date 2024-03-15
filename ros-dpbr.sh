@@ -1,4 +1,5 @@
 #!/bin/sh
+rm -rf CN.rsc
 mkdir -p ./pbr
 cd ./pbr
 
