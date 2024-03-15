@@ -14,7 +14,7 @@ jobs:
 
     - name: download cidr
       run: |
-        rm CN.rsc
+        rm ./CN.rsc
         chmod +x ros-dpbr.sh
         ./ros-dpbr.sh
         
