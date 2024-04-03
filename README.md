@@ -1,6 +1,6 @@
 大陆白名单路由规则
 
-ip段信息取自 [mayaxcn](https://github.com/mayaxcn/china-ip-list)
+ip段信息取自 [iwik](https://www.iwik.org/ipcountry/CN.cidr)
 由Github Action自动构建于此。
 
 策略路由分流的实现方法：
