@@ -18,8 +18,8 @@ jobs:
         ./ros-dpbr.sh
     - name: Commit files
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "ctt727@github.com"
+        git config --local user.name "ctt727"
         git commit -a -m "Add changes"        
     - name: Commit & Push changes
       uses: ad-m/github-push-action@master
