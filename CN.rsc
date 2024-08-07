@@ -5,6 +5,7 @@ add list=CN address=45.82.236.0/22 comment=AS4809
 add list=CN address=45.82.240.0/22 comment=AS4809
 add list=CN address=45.149.16.0/22 comment=AS4809
 add list=CN address=45.152.24.0/22 comment=AS4809
+add list=CN address=74.122.24.0/22 comment=AS4809
 add list=CN address=85.209.40.0/22 comment=AS4809
 add list=CN address=91.233.17.0/24 comment=AS4809
 add list=CN address=104.167.20.0/22 comment=AS4809
