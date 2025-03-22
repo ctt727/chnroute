@@ -6093,10 +6093,7 @@ add list=CN address=202.46.42.0/23 comment=AS4809
 add list=CN address=202.46.44.0/22 comment=AS4809
 add list=CN address=202.46.48.0/20 comment=AS4809
 add list=CN address=202.46.128.0/24 comment=AS4809
-add list=CN address=202.46.224.0/23 comment=AS4809
-add list=CN address=202.46.226.0/24 comment=AS4809
-add list=CN address=202.46.228.0/22 comment=AS4809
-add list=CN address=202.46.232.0/21 comment=AS4809
+add list=CN address=202.46.224.0/20 comment=AS4809
 add list=CN address=202.47.82.0/23 comment=AS4809
 add list=CN address=202.47.96.0/20 comment=AS4809
 add list=CN address=202.47.126.0/24 comment=AS4809
