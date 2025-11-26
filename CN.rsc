@@ -878,6 +878,7 @@ add list=CN address=44.61.18.112/28 comment=AS4809
 add list=CN address=44.61.18.176/28 comment=AS4809
 add list=CN address=44.61.19.96/28 comment=AS4809
 add list=CN address=44.61.23.0/25 comment=AS4809
+add list=CN address=44.61.23.248/29 comment=AS4809
 add list=CN address=44.61.31.64/27 comment=AS4809
 add list=CN address=44.61.32.64/27 comment=AS4809
 add list=CN address=44.61.63.192/26 comment=AS4809
@@ -2807,12 +2808,6 @@ add list=CN address=103.157.234.0/23 comment=AS4809
 add list=CN address=103.157.254.0/23 comment=AS4809
 add list=CN address=103.158.0.0/23 comment=AS4809
 add list=CN address=103.158.8.0/23 comment=AS4809
-add list=CN address=103.158.15.0/26 comment=AS4809
-add list=CN address=103.158.15.64/31 comment=AS4809
-add list=CN address=103.158.15.76/30 comment=AS4809
-add list=CN address=103.158.15.80/28 comment=AS4809
-add list=CN address=103.158.15.96/27 comment=AS4809
-add list=CN address=103.158.15.128/25 comment=AS4809
 add list=CN address=103.158.16.0/23 comment=AS4809
 add list=CN address=103.158.200.0/23 comment=AS4809
 add list=CN address=103.158.224.0/23 comment=AS4809
@@ -3353,7 +3348,6 @@ add list=CN address=103.240.201.0/24 comment=AS4809
 add list=CN address=103.240.202.0/23 comment=AS4809
 add list=CN address=103.240.244.0/22 comment=AS4809
 add list=CN address=103.241.12.0/22 comment=AS4809
-add list=CN address=103.241.72.0/22 comment=AS4809
 add list=CN address=103.241.92.0/22 comment=AS4809
 add list=CN address=103.241.96.0/22 comment=AS4809
 add list=CN address=103.241.160.0/22 comment=AS4809
@@ -4985,6 +4979,8 @@ add list=CN address=144.48.208.0/21 comment=AS4809
 add list=CN address=144.48.220.0/22 comment=AS4809
 add list=CN address=144.48.252.0/22 comment=AS4809
 add list=CN address=144.52.0.0/16 comment=AS4809
+add list=CN address=144.79.4.0/23 comment=AS4809
+add list=CN address=144.79.10.0/23 comment=AS4809
 add list=CN address=144.123.0.0/16 comment=AS4809
 add list=CN address=144.168.216.128/25 comment=AS4809
 add list=CN address=144.178.30.48/28 comment=AS4809
